@@ -1,0 +1,36 @@
+python code
+
+
+name = "Ryan,Paul,Wright"
+
+
+#str.lower()  converts string to lower caseprint
+(name.lower())
+
+#str.upper() convert string to upper caseprint
+(name.upper())
+
+#str.replace() replaces old substring with newprint
+(name.replace("Wright", "Lastname"))
+
+#str.split() returns a list of words in the string we can sepcify the seperator inside the parenthesis
+print(name.split(","))
+
+#str.join() concatenates a iterable or collection of strings
+print(" join ".join(['Ryan', 'Paul', 'Wright']))
+
+#str.count() returns number of non-overlapping occurances of substring in string
+print(name.count("a"))
+
+#str.isdigit() Return true if string digital string
+false otherwisestr1 = "Cat"#return falsestr2 = "123"#returns truestr3 = "12.24"#returns false only accepts digits
+print(str1.isdigit())
+print(str2.isdigit())
+print(str3.isdigit())
+
+#concatination combining stings togetherprint("dog" + "cat")#returns dogcatprint("dog", "cat")
+#return dog cat
+
+
+school = "High"age = 49maths = Truetestscore = 50.6print("My name is", name, "My age is", age, "Maths:", maths, "My test score is", testscore)#f strings allows us to combine multiple datatypes in a string aswell as perform calculations within curly bracketsprint(f"My name is {name}, my age is {age-10}, Maths: {maths}, My testscore is {testscore}")print("Hello my name is \"ryan\"")#returns Hello my name is "ryan"print('Hello my name is \\ryan\\')#returns Hello my name is \ryan\print('Hello \n my name is ryan')# returns Hello# my name is ryanprint('Hello \t my name is ryan')#returns Hello    my name is ryanprint("Hello my name is ryan \U0001F604")#returns Hello my name is ryan 😄
+
